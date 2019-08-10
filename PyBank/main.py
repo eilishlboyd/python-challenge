@@ -39,8 +39,12 @@ with open(PyBank_csv, newline=") as PyBank_csv:
        print(“Financial Analysis”)
        print(“Total Months:” + str(count))
           
-    
+       print "Total Revenue: $[total_months}\n"
        print(“Total Profits:” + “$” + str(total_profit))
-       print(“Average Change:” + “$” + str(int(avg_change_profit)))
-       print(“Greatest Increase in Profits:” + str(increase_date) + “($” + str(greatest_increase) + “)”)
-       print(“Greatest Decrease in Profits:” + str(decrease_date) + ” ($” + str(greatest_decrease) + “)”)
+       print(“Average Change:” ${revenue_avg}\n"
+       print "Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})\n"
+       print “Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})\n")
+             
+             print(output)
+             with open(file_to_output, "w") as txt_file:
+    txt_file.write(output)
