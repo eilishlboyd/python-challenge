@@ -41,6 +41,7 @@ with open(PyBank_csv, newline=") as PyBank_csv:
        print(“Financial Analysis”)
        print(“-------------------------------------------------------“)
        print(“Total Months:” + str(count))
+    
        print(“Total Profits:” + “$” + str(total_profit))
        print(“Average Change:” + “$” + str(int(avg_change_profit)))
        print(“Greatest Increase in Profits:” + str(increase_date) + “($” + str(greatest_increase) + “)”)
