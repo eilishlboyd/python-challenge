@@ -2,7 +2,7 @@ import csv
 import os
 import numpy as np
 
-PyBank_csv = os.path.join(“/System/Volumes/Data/Users/eilishboyd$/class/COLNYC20190716DATA/02-Homeworks/03-Python/Instructions/PyPoll/Resources/election_data.csv”)
+PyBank_csv = os.path.join("/System/Volumes/Data/Users/eilishboyd$/class/COLNYC20190716DATA/02-Homeworks/03-Python/Instructions/PyBank/Resources/election_data.csv)
 
 root_path = os.path.join(os.getcwd(), ".")
 data_path = os.path.join(root_path, "raw_data")
