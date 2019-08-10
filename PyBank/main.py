@@ -38,6 +38,7 @@ with open(PyBank_csv, newline=") as PyBank_csv:
        decrease_date = date[monthly_changes.index(greatest_decrease)]
        print(“Financial Analysis”)
        print(“Total Months:” + str(count))
+          
     
        print(“Total Profits:” + “$” + str(total_profit))
        print(“Average Change:” + “$” + str(int(avg_change_profit)))
