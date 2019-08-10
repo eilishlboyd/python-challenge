@@ -18,17 +18,15 @@ with open(PyBank_csv, newline=") as PyBank_csv:
           count = count + 1
        date.append(row[0])
           
-       # print(“it works”)
           
        profit.append(row[1])
        total_profit = total_profit + int(row[1])
           
-       # print(“it works 2”)
           
        final_profit = int(row[1])
        monthly_profit_change = final_profit - prev_profit
           
-       # print(“This works 3")
+      
           
        monthly_changes.append(monthly_profit_change)
        total_change = total_change + monthly_profit_change
